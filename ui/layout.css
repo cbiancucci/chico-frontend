@@ -1,0 +1,32 @@
+/* Web Layout */
+
+body {
+	padding: 0;
+}
+
+.ch-header {
+	padding-left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #FFF059;
+	padding-top: 8px;
+}
+
+.ch-footer {
+	clear:both;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.ch-g1-10, .ch-g8-10 {
+	margin-top: 20px;
+}
+
+.logo {
+	width: 160px;
+	height: 42px;
+	margin-left: 50px;
+	background-image: url("../assets/logo.png");
+	background-repeat: no-repeat;
+}
+
