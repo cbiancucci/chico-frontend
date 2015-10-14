@@ -7,21 +7,34 @@
     <!-- Avoid script blocking -->
     <script></script>
     <meta charset="utf-8"/>
-    <title>Document Title</title>
+    <title>Machine Learning</title>
     <!-- Stylesheet -->
+
     <link rel="stylesheet" href="ui/chico.css"/>
-    <link rel="stylesheet" href="ui/jquery-ui/jquery-ui.css" >
+    <link rel="stylesheet" href="ui/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" href="ui/mesh.css"/>
+    <link rel="stylesheet" href="ui/layout.css"/>
 </head>
 <body>
 
-    <!-- HTML markup -->
+    <div class="ch-header">
+        <div class="logo">
+        </div>
+    </div>
 
-    <div role="main">
-        <div class="ch-wizard">
-            <ol class="ch-wizard-breadcrumb ch-steps-four">
+    <div class="ch-g1-10">
+        <div class="ch-leftcolumn">
+            <h2></h2>
+        </div>
+    </div>
+
+    <div class="ch-g8-10">
+        <div class="ch-centercolumn ch-wizard ">
+            <ol class="ch-wizard-breadcrumb ch-steps-five">
                 <li><a href="./index.html">Input Data</a></li>
                 <li class="ch-wizard-current">Pre-processing</li>
-                <li class="ch-wizard-step">Review</li>
+                <li class="ch-wizard-step">Results</li>
+                <li class="ch-wizard-step">Suggestions</li>
                 <li class="ch-wizard-step">Deploy</li>
             </ol>
 
@@ -35,7 +48,7 @@
                     <div id="search">
                         <caption>
                             <div class="ch-form-row">
-                                <h4 class="myDropdown ch-shownby-pointertap ch-dropdown-trigger ch-user-no-select ch-btn-skin ch-btn-big" data-title="undefined" title="" aria-owns="ch-dropdown-12" aria-haspopup="true" data-side="bottom" data-align="left">Default</h4>
+                                <h4 class="myDropdown ch-shownby-pointertap ch-dropdown-trigger ch-user-no-select ch-btn-skin ch-btn-big" data-title="undefined" title="" aria-owns="ch-dropdown-12" aria-haspopup="true" data-side="bottom" data-align="left">Action</h4>
 
                             
                                 <input id="input_ico_inside" type="text" name="input_ico" size="30" placeholder="" class="ch-form-icon-input" data-side="right" data-align="top">
@@ -88,8 +101,8 @@
             </div>
 
             <div class="ch-actions">
-                <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37"> 
-                    <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
+                <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
+                <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
                 </div> -->
                 <div align="right">
                     <p>
@@ -99,6 +112,19 @@
             </div>
         </div>
     </div>
+
+
+    <div class="ch-g1-10">
+        <div class="ch-rightcolumn">
+            <h2></h2>
+        </div>
+    </div>
+
+
+    <div class="ch-footer">
+        <p>Hackathon Meli <strong>Whiplash Team</strong></p>
+    </div>
+
 
     <!-- JavaScript -->
     <script src="ui/jquery-1.11.3.min.js"></script>
