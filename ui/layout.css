@@ -30,3 +30,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.graph-container {
+	height: 500px;
+}
+
+.graph {
+	margin-top: 50px;
+	height: 400px;
+}
+
