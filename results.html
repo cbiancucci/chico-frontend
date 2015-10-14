@@ -44,13 +44,26 @@
                         <h2>Results</h2>
                     </legend>
 
-                    <div class="ch-g1-2">
+                    <div class="ch-g2-3">
                         <h4>ML model performance</h4>
                         <div class="curve-graph" id="curve-graph-container"></div>
                         <div class="bar-graph" id="scale-graph-container"></div>
                     </div>
-                    <div class="ch-g1-2">
+                    <div class="ch-g1-3">
                         <h4>Trade-off based on Score Threshold</h4>
+                        
+                        <!-- <input id="thresholdRange" type="range" name="thresholdRange" min="1" max="10" data-side="right" data-align="top" value="1" class="ch-range"> -->
+
+                        <dl class="ch-list">
+                            <dt class="">90% are correct</dt>
+                            <dd>1.230 true positive</dd>
+                            <dd>19.655 true negative</dd>
+                            <dt class="text-error">10% are errors</dt>
+                            <dd class="text-error">625 false positive</dd>
+                            <dd class="text-error">1.770 false negative</dd>
+                            <dt class="">8% are predicted as "1"</dt><br/>
+                            <dt class="">92% are predicted as "0"</dt>
+                        </dl>
                     </div>
                 </div>
 

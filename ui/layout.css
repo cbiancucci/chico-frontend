@@ -32,7 +32,7 @@ body {
 }
 
 .graph-container{
-	height: 750px;
+	height: 700px;
 }
 
 .curve-graph {
@@ -41,10 +41,22 @@ body {
 }
 
 .bar-graph {
-	margin-top: 50px;
+	margin-top: 20px;
 	height: 150px;	
 }
 
 .ch-form-row {
 	padding-top: 20px;
+}
+
+.ch-range {
+	margin-top: 20px;
+}
+.ch-list {
+	padding-top: 20px;
+	padding-left: 80px;
+}
+
+.text-error {
+	color: red;
 }

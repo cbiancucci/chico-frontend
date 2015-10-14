@@ -2114,9 +2114,10 @@ dl.ch-list dd {
 }
 dl.ch-list dt {
   font-weight: bold;
+  margin-top: 20px;
 }
 dl.ch-list dd {
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 10px 30px;
 }
 
 /**
