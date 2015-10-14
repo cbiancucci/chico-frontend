@@ -38,30 +38,32 @@
                 <li class="ch-wizard-step">Deploy</li>
             </ol>
 
-            <div class="ch-box-container graph-container">
-                <h2>Results</h2>
-                <p>
-                    We scanned your input data and inferred the column names and data type for each of the columns in your dataset. Review and edit as needed.
-                </p>
+            <form action="#" method="GET" class="ch-form" novalidate="novalidate">
+                <div class="ch-box-container graph-container">
+                    <legend>
+                        <h2>Results</h2>
+                    </legend>
 
-                <div class="ch-g1-2">
-                    <div class="graph" id="graph-container"></div>
+                    <div class="ch-g1-2">
+                        <h4>ML model performance</h4>
+                        <div class="graph" id="graph-container"></div>
+                    </div>
+                    <div class="ch-g1-2">
+                        <h4>Trade-off based on Score Threshold</h4>
+                    </div>
                 </div>
-                <div class="ch-g1-2">
-                    dsa
-                </div>
-            </div>
 
-            <div class="ch-actions">
-                <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
-                <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
-                </div> -->
-                <div align="right">
-                    <p>
-                        <input type="button" value="Start processing" class="ch-btn ch-btn-disabled">
-                    </p>
+                <div class="ch-actions">
+                    <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
+                    <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
+                    </div> -->
+                    <div align="right">
+                        <p>
+                            <input type="button" value="See suggestions" class="ch-btn">
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 

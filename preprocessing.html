@@ -38,78 +38,85 @@
                 <li class="ch-wizard-step">Deploy</li>
             </ol>
 
-            <div class="ch-box-container">
-                <h2>Pre-processing</h2>
-                <p>
-                    We scanned your input data and inferred the column names and data type for each of the columns in your dataset. Review and edit as needed.
-                </p>
+            <form action="#" method="GET" class="ch-form" novalidate="novalidate">
+                <div class="ch-box-container">
+                    <fieldset>
+                        <div>
+                            <legend>
+                                <h2>Pre-processing</h2>
+                            </legend>
+                            <p>
+                                We scanned your input data and inferred the column names and data type for each of the columns in your dataset. Review and edit as needed.
+                            </p>
+                        </div>
 
-                <table summary="Model Schema" class="ch-datagrid-controls">
-                    <div id="search">
-                        <caption>
-                            <div class="ch-form-row">
-                                <h4 class="myDropdown ch-shownby-pointertap ch-dropdown-trigger ch-user-no-select ch-btn-skin ch-btn-big" data-title="undefined" title="" aria-owns="ch-dropdown-12" aria-haspopup="true" data-side="bottom" data-align="left">Action</h4>
+                        <table summary="Model Schema" class="ch-datagrid-controls">
+                            <div id="search">
+                                <caption>
+                                    <div class="ch-form-row">
+                                        <h4 class="myDropdown ch-shownby-pointertap ch-dropdown-trigger ch-user-no-select ch-btn-skin ch-btn-big" data-title="undefined" title="" aria-owns="ch-dropdown-12" aria-haspopup="true" data-side="bottom" data-align="left">Action</h4>
 
-                            
-                                <input id="input_ico_inside" type="text" name="input_ico" size="30" placeholder="" class="ch-form-icon-input" data-side="right" data-align="top">
-                                <i class="ch-form-icon-inner ch-icon-search"></i>
+                                    
+                                        <input id="input_ico_inside" type="text" name="input_ico" size="30" placeholder="" class="ch-form-icon-input" data-side="right" data-align="top">
+                                        <i class="ch-form-icon-inner ch-icon-search"></i>
+                                    </div>
+                                </caption>
                             </div>
-                        </caption>
-                    </div>
 
-                    <thead>
-                        <tr>
-                            <th scope="col"><input type="checkbox" name="mycheckall"></th>
-                            <th scope="col" class="ch-datagrid-selected">Data</th>
-                            <th scope="col">Data type</th>
-                            <th scope="col">Sample field value 1</th>
-                            <th scope="col" >Sample field value 1</th>
-                        </tr>
-                    </thead>
+                            <thead>
+                                <tr>
+                                    <th scope="col"><input type="checkbox" name="mycheckall"></th>
+                                    <th scope="col" class="ch-datagrid-selected">Data</th>
+                                    <th scope="col">Data type</th>
+                                    <th scope="col">Sample field value 1</th>
+                                    <th scope="col" >Sample field value 1</th>
+                                </tr>
+                            </thead>
 
-                    <tbody>
-                        <tr>
-                            <td scope="row"><input type="checkbox" name="mycheck"></td>
-                            <td>02/04/2011</td>
-                            <td><a href="#">Sale</a></td>
-                            <td><a href="#">mail@example.com</a></td>
-                            <td>Shopping at MercadoLibre</td>
-                        </tr>
-                        <tr class="ch-datagrid-selected">
-                            <td scope="row"><input type="checkbox" name="mycheck" checked="checked"></td>
-                            <td>02/04/2011</td>
-                            <td><a href="#">Purchase</a></td>
-                            <td><a href="#">mail@example.com</a></td>
-                            <td>Shopping at MercadoLibre</td>
-                        </tr>
-                        <tr>
-                            <td scope="row"><input type="checkbox" name="mycheck"></td>
-                            <td>02/04/2011</td>
-                            <td><a href="#">Sale</a></td>
-                            <td><a href="#">mail@example.com</a></td>
-                            <td>Shopping at MercadoLibre</td>
-                        </tr>
-                        <tr>
-                            <td scope="row"><input type="checkbox" name="mycheck"></td>
-                            <td>02/04/2011</td>
-                            <td><a href="#">Sale</a></td>
-                            <td><a href="#">mail@example.com</a></td>
-                            <td>Shopping at MercadoLibre</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="ch-actions">
-                <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
-                <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
-                </div> -->
-                <div align="right">
-                    <p>
-                        <input type="button" value="Start processing" class="ch-btn ch-btn-disabled">
-                    </p>
+                            <tbody>
+                                <tr>
+                                    <td scope="row"><input type="checkbox" name="mycheck"></td>
+                                    <td>02/04/2011</td>
+                                    <td><a href="#">Sale</a></td>
+                                    <td><a href="#">mail@example.com</a></td>
+                                    <td>Shopping at MercadoLibre</td>
+                                </tr>
+                                <tr class="ch-datagrid-selected">
+                                    <td scope="row"><input type="checkbox" name="mycheck" checked="checked"></td>
+                                    <td>02/04/2011</td>
+                                    <td><a href="#">Purchase</a></td>
+                                    <td><a href="#">mail@example.com</a></td>
+                                    <td>Shopping at MercadoLibre</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><input type="checkbox" name="mycheck"></td>
+                                    <td>02/04/2011</td>
+                                    <td><a href="#">Sale</a></td>
+                                    <td><a href="#">mail@example.com</a></td>
+                                    <td>Shopping at MercadoLibre</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><input type="checkbox" name="mycheck"></td>
+                                    <td>02/04/2011</td>
+                                    <td><a href="#">Sale</a></td>
+                                    <td><a href="#">mail@example.com</a></td>
+                                    <td>Shopping at MercadoLibre</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
                 </div>
-            </div>
+                <div class="ch-actions">
+                    <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
+                    <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
+                    </div> -->
+                    <div align="right">
+                        <p>
+                            <input type="submit" name="_eventId_confirmation" value="Start processing" class="ch-btn">
+                        </p>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
