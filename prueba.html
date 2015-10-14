@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!-- Avoid script blocking -->
+    <script></script>
+    <meta charset="utf-8"/>
+    <title>Document Title</title>
+    <!-- Stylesheet -->
+    
+    <link rel="stylesheet" href="ui/chico.css"/>
+    <link rel="stylesheet" href="ui/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" href="ui/mesh.css"/>
+    <link rel="stylesheet" href="ui/layout.css"/>
+</head>
+<body>
+
+    <div class="ch-header">
+        <div class="logo">
+        </div>
+    </div>
+
+    <div class="ch-g1-10">
+        <div class="ch-leftcolumn">
+            <h2></h2>
+        </div>
+    </div>
+
+    <div class="ch-g8-10">
+        <div class="ch-centercolumn ch-wizard ">
+                <ol class="ch-wizard-breadcrumb ch-steps-five">
+                    <li class="ch-wizard-current">Input Data</li>
+                    <li class="ch-wizard-step">Pre-processing</li>
+                    <li class="ch-wizard-step">Results</li>
+                    <li class="ch-wizard-step">Suggestions</li>
+                    <li class="ch-wizard-step">Deploy</li>
+                </ol>
+
+                <div class="ch-box-container">
+                    <h2>Input Data</h2>
+                    <p>
+                        Locate the data you want to analyze and process it into a datasource project. You can use a datasource to train (create) and evaluate <b>Machine Learning</b> models.
+                    </p>
+                    <div class="ch-form-row">
+                        <label for="input_button">Upload file:</label>
+                        <input id="input_button" type="text" name="input_button" size="30" placeholder="">&nbsp;
+                        <input type="button" name="add_category" value="Upload" class="ch-btn ch-btn-small ch-btn-skin">
+                        <span class="ch-form-hint">Your file should be in .CSV format</span>
+                    </div>
+                </div>
+
+                <div class="ch-actions">
+                    <!-- <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37"> 
+                        <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
+                    </div> -->
+                    <div align="right">
+                        <p>
+                            <input type="button" value="Continue" class="ch-btn ch-btn-disabled">
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="ch-g1-10">
+        <div class="ch-rightcolumn">
+            <h2></h2>
+        </div>
+    </div>
+
+
+    <div class="ch-footer">
+        <p>Hackathon Meli <strong>Whiplash Team</strong></p>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="ui/jquery-1.11.3.min.js"></script>
+    <script src="ui/jquery-ui/jquery-ui.js"></script>
+    <script src="ui/chico.min.js"></script>
+</body>
+</html>
