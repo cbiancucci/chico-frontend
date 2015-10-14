@@ -16,6 +16,7 @@ body {
 	clear:both;
 	text-align: center;
 	padding-top: 20px;
+	margin-bottom: 10px;
 }
 
 .ch-g1-10, .ch-g8-10 {
@@ -30,13 +31,18 @@ body {
 	background-repeat: no-repeat;
 }
 
-.graph-container {
-	height: 500px;
+.graph-container{
+	height: 750px;
 }
 
-.graph {
+.curve-graph {
 	margin-top: 50px;
 	height: 400px;
+}
+
+.bar-graph {
+	margin-top: 50px;
+	height: 150px;	
 }
 
 .ch-form-row {
